@@ -1,0 +1,12 @@
+[Unit]
+Description=Mint Auto-Update Service
+Requires=network-online.target
+
+[Service]
+Type=idle
+ExecStart=/opt/autoupdate/autoupdate.sh
+Restart=always
+RestartSec=1h
+
+[Install]
+WantedBy=multi-user.target
