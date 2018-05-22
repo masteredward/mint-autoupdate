@@ -1,3 +1,5 @@
+#!/bin/bash
+
 INSTALL_DIR=/opt/autoupdate
 SYSTEMD_DIR=/etc/systemd/system
 
